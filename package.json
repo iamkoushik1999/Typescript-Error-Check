@@ -2,9 +2,11 @@
   "name": "typescript-error-check",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "nodemon src/server.ts",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
